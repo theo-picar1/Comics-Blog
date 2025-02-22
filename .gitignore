@@ -1,0 +1,49 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.local
+/.env.*.local
+
+# Mac OS specific
+.DS_Store
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Composer
+composer.phar
+
+# PHPUnit
+phpunit.xml
+
+# Laravel debugbar (if installed)
+/storage/debugbar/
+
+# Log files
+/storage/logs/*.log
+
+# Laravel backup
+/storage/backups/
+
+# Nginx, Apache, etc.
+*.log
+
+# Tailwind
+/public/build
+
+# Vite
+/public/hot
+/public/mix-manifest.json
+
+# Composer lock file (optional for you, depends on workflow)
+composer.lock
+
+# Docker files
+.docker/
+docker-compose.yml
